@@ -2,3 +2,5 @@ a.out
 *.gch
 *.o
 encode
+testfile.txt
+copy.txt
