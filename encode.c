@@ -9,7 +9,7 @@ int main(){
 
     //int num = 0;
 
-    char ch = 'a';
+    char ch = 'A';
 
     printf("%c\n", ch);
 

@@ -46,6 +46,9 @@ char shift_encrpyt(char ch, int shift){
                 encrypt_num -= ALPHABET;
             } 
         }
+        else{
+            encrypt_num = ch_num;
+        }
         encrpyted = encrypt_num + 65;
     }
     else{
