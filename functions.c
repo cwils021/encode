@@ -9,7 +9,7 @@
 char shift_encrpyt(char ch, int shift){
     char encrpyted;
     int ch_num = ch;
-    int encrypt_num;
+    int encrypt_num = 0;
 
     if (ch_num >= 97 && ch_num <= 122) { //check for lowercase letter
         ch_num -= 97;
@@ -25,6 +25,9 @@ char shift_encrpyt(char ch, int shift){
             if (encrypt_num > ALPHABET){
                 encrypt_num -= ALPHABET;
             }    
+        }
+        else{
+            encrypt_num = ch_num;
         }
         encrpyted = encrypt_num + 97;
     } 

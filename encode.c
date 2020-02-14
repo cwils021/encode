@@ -7,13 +7,13 @@
 int main(){
 
 
-    int num = 0;
+    //int num = 0;
 
     char ch = 'a';
 
     printf("%c\n", ch);
 
-    char ch2 = shift_encrpyt(ch, 5);
+    char ch2 = shift_encrpyt(ch, 0);
 
     printf("pre: %c, post: %c\n", ch, ch2);
 
